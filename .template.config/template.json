@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Colt Alan Bauman",
+  "classifications": [ "Common", "Source Generator" ],
+  "identity": "GameCtorTemplate.SrcGenProject",
+  "name": "Incremental source generator project",
+  "shortName": "srcgen",
+  "sourceName": "SrcGen",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}
