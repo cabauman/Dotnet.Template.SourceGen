@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"command": "dotnet test",
+			"group": "test",
+			"isBackground": false,
+			"label": "test",
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"type": "shell"
+		}
+	]
+}

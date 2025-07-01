@@ -33,11 +33,9 @@ public class HelloWorldGenerator : IIncrementalGenerator
     {
         if (methods.IsDefaultOrEmpty)
         {
-            // nothing to do yet
             return;
         }
 
-        // I'm not sure if this is even necessary, but `[LoggerMessage]` does it, so seems like a good idea!
         List<IMethodSymbol> methodsToGenerate = new List<IMethodSymbol>();
         foreach (IMethodSymbol method in methods)
         {
